@@ -15,13 +15,11 @@ Thumbs.db
 .env
 
 # --- Model & Data Artifacts ---
-*.keras
 *.h5
 *.pt
 *.bin
 *.ckpt
 *.safetensors
-*.pkl
 
 # --- Jupyter Notebooks ---
 .ipynb_checkpoints/
