@@ -1,0 +1,34 @@
+# --- Python & Environment ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- IDE & OS ---
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Environment Variables & Secrets ---
+.env
+
+# --- Model & Data Artifacts ---
+*.keras
+*.h5
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+*.pkl
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Logs & Experiment Tracking ---
+logs/
+runs/
+wandb/
+token_cache.json
+routed_complaints*.xlsx
